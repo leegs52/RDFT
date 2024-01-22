@@ -8,8 +8,9 @@ RDFT achieves domain adaptation covering three aspects:
 3) extracting weighted domain-invariant features. 
 
 ## Usage
+* The RDFT code consists of the following parts: RDFT.m, matrixMN.m, and RDFT_demo.m
+
 * Algorithms used in experiments can be implemented by running 
 ```
 $ matlab RDFT_demo.m
 ```
-* ADMM iterations for unsupervised domain adaptation are performed by RDFT.m
